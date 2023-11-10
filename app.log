@@ -1,0 +1,195 @@
+2023-11-06T11:44:52.871+01:00  INFO 16636 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 16636 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T11:44:52.889+01:00  INFO 16636 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T11:44:57.297+01:00  INFO 16636 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T11:44:57.298+01:00  INFO 16636 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T11:44:57.303+01:00  INFO 16636 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2023-11-06T11:44:57.360+01:00  INFO 16636 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 5.438 seconds (process running for 7.988)
+2023-11-06T11:44:58.401+01:00  WARN 16636 --- [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "TaskDTO(id=77,description=finisheverything,isReminderSet=true,isTaskOpen=true,createdOn=2023-11-06T11:44:57.370608600,priority=MEDIUM).id"]
+2023-11-06T12:24:09.323+01:00  INFO 15820 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 15820 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:24:09.327+01:00  INFO 15820 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:24:17.264+01:00  INFO 15820 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T12:24:17.268+01:00  INFO 15820 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T12:24:17.275+01:00  INFO 15820 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2023-11-06T12:24:17.418+01:00  INFO 15820 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 9.892 seconds (process running for 13.979)
+2023-11-06T12:42:26.916+01:00  INFO 7660 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : Starting ToDoAppApplicationTests using Java 17.0.9 with PID 7660 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:42:26.921+01:00  INFO 7660 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:42:32.854+01:00  INFO 7660 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T12:42:33.054+01:00  INFO 7660 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interfaces.
+2023-11-06T12:42:34.346+01:00  INFO 7660 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T12:42:34.521+01:00  INFO 7660 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-06T12:42:34.529+01:00  INFO 7660 --- [Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-06T12:42:35.578+01:00  INFO 7660 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T12:42:35.678+01:00  INFO 7660 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-06T12:42:37.352+01:00  INFO 7660 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-06T12:42:37.356+01:00  INFO 7660 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-06T12:42:37.448+01:00  WARN 7660 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T12:42:39.868+01:00  INFO 7660 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T12:42:40.007+01:00  INFO 7660 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:42:41.100+01:00  INFO 7660 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-06T12:42:42.551+01:00  WARN 7660 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06T12:42:43.283+01:00  INFO 7660 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : Started ToDoAppApplicationTests in 17.536 seconds (process running for 21.993)
+2023-11-06T12:42:44.544+01:00  INFO 7660 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.todoapp.controller.TaskControllerIntegrationTest]: TaskControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-06T12:42:44.596+01:00  INFO 7660 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.todoapp.ToDoAppApplication for test class com.todoapp.controller.TaskControllerIntegrationTest
+2023-11-06T12:42:44.650+01:00  INFO 7660 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 7660 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:42:44.651+01:00  INFO 7660 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:42:45.396+01:00  INFO 7660 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T12:42:45.397+01:00  INFO 7660 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T12:42:45.399+01:00  INFO 7660 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-11-06T12:42:45.414+01:00  INFO 7660 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 0.806 seconds (process running for 24.125)
+2023-11-06T12:42:45.680+01:00  WARN 7660 --- [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "53L"]
+2023-11-06T12:42:46.960+01:00  INFO 7660 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.todoapp.repository.TaskAppRepositoryTest]: TaskAppRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-06T12:42:46.988+01:00  INFO 7660 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.todoapp.ToDoAppApplication for test class com.todoapp.repository.TaskAppRepositoryTest
+2023-11-06T12:42:47.041+01:00  INFO 7660 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Starting TaskAppRepositoryTest using Java 17.0.9 with PID 7660 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:42:47.042+01:00  INFO 7660 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:42:47.187+01:00  INFO 7660 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T12:42:47.208+01:00  INFO 7660 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2023-11-06T12:42:47.237+01:00  INFO 7660 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-11-06T12:42:47.286+01:00  INFO 7660 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:897625f0-51e8-40b3-a057-f33366d8e10c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-06T12:42:47.329+01:00  INFO 7660 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T12:42:47.334+01:00  WARN 7660 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2023-11-06T12:42:47.346+01:00  INFO 7660 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T12:42:47.350+01:00  WARN 7660 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T12:42:47.384+01:00  INFO 7660 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T12:42:47.393+01:00  INFO 7660 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:42:47.511+01:00  INFO 7660 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Started TaskAppRepositoryTest in 0.514 seconds (process running for 26.221)
+2023-11-06T12:42:50.837+01:00  INFO 7660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:42:50.841+01:00  INFO 7660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-06T12:42:50.849+01:00  INFO 7660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-06T12:42:50.854+01:00  INFO 7660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:45:14.723+01:00  INFO 8380 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Starting TaskAppRepositoryTest using Java 17.0.9 with PID 8380 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:45:14.727+01:00  INFO 8380 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:45:15.667+01:00  INFO 8380 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T12:45:15.812+01:00  INFO 8380 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interfaces.
+2023-11-06T12:45:15.952+01:00  INFO 8380 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-11-06T12:45:16.278+01:00  INFO 8380 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:3b0d27c0-bda4-45bd-8e0c-3e52cc2dc416;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-06T12:45:16.892+01:00  INFO 8380 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T12:45:17.011+01:00  INFO 8380 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-06T12:45:17.015+01:00  INFO 8380 --- [Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-06T12:45:17.035+01:00  WARN 8380 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2023-11-06T12:45:17.486+01:00  INFO 8380 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T12:45:17.553+01:00  WARN 8380 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T12:45:18.602+01:00  INFO 8380 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T12:45:18.679+01:00  INFO 8380 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:45:19.660+01:00  INFO 8380 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-06T12:45:20.493+01:00  INFO 8380 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Started TaskAppRepositoryTest in 6.39 seconds (process running for 8.414)
+2023-11-06T12:45:21.658+01:00  INFO 8380 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:45:37.854+01:00  INFO 16316 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Starting TaskAppRepositoryTest using Java 17.0.9 with PID 16316 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:45:37.859+01:00  INFO 16316 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:45:38.961+01:00  INFO 16316 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T12:45:39.096+01:00  INFO 16316 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interfaces.
+2023-11-06T12:45:39.214+01:00  INFO 16316 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-11-06T12:45:39.584+01:00  INFO 16316 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:14fe79df-6213-4869-9d05-133fb3c8484c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-06T12:45:40.402+01:00  INFO 16316 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T12:45:40.539+01:00  INFO 16316 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-06T12:45:40.544+01:00  INFO 16316 --- [Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-06T12:45:40.558+01:00  WARN 16316 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2023-11-06T12:45:41.119+01:00  INFO 16316 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T12:45:41.194+01:00  WARN 16316 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T12:45:42.409+01:00  INFO 16316 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T12:45:42.527+01:00  INFO 16316 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:45:43.403+01:00  INFO 16316 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-06T12:45:44.238+01:00  INFO 16316 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Started TaskAppRepositoryTest in 7.182 seconds (process running for 9.547)
+2023-11-06T12:45:45.433+01:00  INFO 16316 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:52:05.236+01:00  INFO 9536 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : Starting ToDoAppApplicationTests using Java 17.0.9 with PID 9536 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:52:05.241+01:00  INFO 9536 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:52:10.869+01:00  INFO 9536 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T12:52:11.067+01:00  INFO 9536 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interfaces.
+2023-11-06T12:52:12.635+01:00  INFO 9536 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T12:52:12.941+01:00  INFO 9536 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-06T12:52:12.950+01:00  INFO 9536 --- [Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-06T12:52:14.637+01:00  INFO 9536 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T12:52:14.751+01:00  INFO 9536 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-06T12:52:16.171+01:00  INFO 9536 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-06T12:52:16.175+01:00  INFO 9536 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-06T12:52:16.253+01:00  WARN 9536 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T12:52:18.548+01:00  INFO 9536 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T12:52:18.717+01:00  INFO 9536 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:52:19.844+01:00  INFO 9536 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-06T12:52:22.271+01:00  WARN 9536 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06T12:52:23.636+01:00  INFO 9536 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : Started ToDoAppApplicationTests in 19.806 seconds (process running for 28.374)
+2023-11-06T12:52:24.770+01:00  INFO 9536 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.todoapp.controller.TaskControllerIntegrationTest]: TaskControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-06T12:52:24.820+01:00  INFO 9536 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.todoapp.ToDoAppApplication for test class com.todoapp.controller.TaskControllerIntegrationTest
+2023-11-06T12:52:24.991+01:00  INFO 9536 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 9536 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:52:25.006+01:00  INFO 9536 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:52:28.054+01:00  INFO 9536 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T12:52:28.067+01:00  INFO 9536 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T12:52:28.083+01:00  INFO 9536 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2023-11-06T12:52:28.120+01:00  INFO 9536 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 3.288 seconds (process running for 32.859)
+2023-11-06T12:52:28.963+01:00  WARN 9536 --- [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "53L"]
+2023-11-06T12:52:30.727+01:00  INFO 9536 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.todoapp.repository.TaskAppRepositoryTest]: TaskAppRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-06T12:52:30.779+01:00  INFO 9536 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.todoapp.ToDoAppApplication for test class com.todoapp.repository.TaskAppRepositoryTest
+2023-11-06T12:52:30.867+01:00  INFO 9536 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Starting TaskAppRepositoryTest using Java 17.0.9 with PID 9536 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T12:52:30.869+01:00  INFO 9536 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T12:52:31.155+01:00  INFO 9536 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T12:52:31.187+01:00  INFO 9536 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2023-11-06T12:52:31.253+01:00  INFO 9536 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-11-06T12:52:31.551+01:00  INFO 9536 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:04c7d452-20d0-4b99-b4bf-54dd4f658cee;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-06T12:52:32.122+01:00  INFO 9536 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T12:52:32.156+01:00  WARN 9536 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2023-11-06T12:52:32.409+01:00  INFO 9536 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T12:52:32.417+01:00  WARN 9536 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T12:52:32.562+01:00  INFO 9536 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T12:52:32.639+01:00  INFO 9536 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:52:33.006+01:00  INFO 9536 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Started TaskAppRepositoryTest in 2.214 seconds (process running for 37.745)
+2023-11-06T12:52:43.869+01:00  INFO 9536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T12:52:43.878+01:00  INFO 9536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-06T12:52:44.108+01:00  INFO 9536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-06T12:52:44.113+01:00  INFO 9536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T13:09:35.916+01:00  INFO 9520 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : Starting ToDoAppApplicationTests using Java 17.0.9 with PID 9520 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T13:09:35.923+01:00  INFO 9520 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T13:09:40.441+01:00  INFO 9520 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T13:09:40.664+01:00  INFO 9520 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 198 ms. Found 1 JPA repository interfaces.
+2023-11-06T13:09:42.031+01:00  INFO 9520 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T13:09:42.322+01:00  INFO 9520 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-06T13:09:42.330+01:00  INFO 9520 --- [Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-06T13:09:43.262+01:00  INFO 9520 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T13:09:43.348+01:00  INFO 9520 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-06T13:09:44.286+01:00  INFO 9520 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-11-06T13:09:44.292+01:00  INFO 9520 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-06T13:09:44.410+01:00  WARN 9520 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T13:09:46.994+01:00  INFO 9520 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T13:09:47.175+01:00  INFO 9520 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T13:09:48.411+01:00  INFO 9520 --- [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-06T13:09:50.344+01:00  WARN 9520 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06T13:09:51.476+01:00  INFO 9520 --- [Test worker] com.todoapp.ToDoAppApplicationTests      : Started ToDoAppApplicationTests in 16.832 seconds (process running for 21.365)
+2023-11-06T13:09:52.592+01:00  INFO 9520 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.todoapp.controller.TaskControllerIntegrationTest]: TaskControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-06T13:09:52.708+01:00  INFO 9520 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.todoapp.ToDoAppApplication for test class com.todoapp.controller.TaskControllerIntegrationTest
+2023-11-06T13:09:52.821+01:00  INFO 9520 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 9520 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T13:09:52.821+01:00  INFO 9520 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T13:09:54.324+01:00  INFO 9520 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T13:09:54.325+01:00  INFO 9520 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T13:09:54.327+01:00  INFO 9520 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-11-06T13:09:54.370+01:00  INFO 9520 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 1.635 seconds (process running for 24.259)
+2023-11-06T13:09:55.095+01:00  WARN 9520 --- [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "53L"]
+2023-11-06T13:09:56.878+01:00  INFO 9520 --- [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.todoapp.repository.TaskAppRepositoryTest]: TaskAppRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-06T13:09:56.936+01:00  INFO 9520 --- [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.todoapp.ToDoAppApplication for test class com.todoapp.repository.TaskAppRepositoryTest
+2023-11-06T13:09:57.029+01:00  INFO 9520 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Starting TaskAppRepositoryTest using Java 17.0.9 with PID 9520 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T13:09:57.040+01:00  INFO 9520 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T13:09:57.340+01:00  INFO 9520 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T13:09:57.373+01:00  INFO 9520 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-11-06T13:09:57.441+01:00  INFO 9520 --- [Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2023-11-06T13:09:57.533+01:00  INFO 9520 --- [Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:51e236b0-1bae-45da-a8d8-ceddb598ba15;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-06T13:09:57.610+01:00  INFO 9520 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T13:09:57.620+01:00  WARN 9520 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.validation.mode], use [jakarta.persistence.validation.mode] instead
+2023-11-06T13:09:57.716+01:00  INFO 9520 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T13:09:57.722+01:00  WARN 9520 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-06T13:09:57.793+01:00  INFO 9520 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T13:09:57.810+01:00  INFO 9520 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T13:09:58.059+01:00  INFO 9520 --- [Test worker] c.t.repository.TaskAppRepositoryTest     : Started TaskAppRepositoryTest in 1.109 seconds (process running for 27.947)
+2023-11-06T13:10:04.984+01:00  INFO 9520 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T13:10:04.990+01:00  INFO 9520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-06T13:10:04.997+01:00  INFO 9520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-06T13:10:05.002+01:00  INFO 9520 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T13:17:26.971+01:00  INFO 18768 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 18768 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T13:17:26.976+01:00  INFO 18768 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T13:17:32.829+01:00  INFO 18768 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T13:17:32.830+01:00  INFO 18768 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T13:17:32.834+01:00  INFO 18768 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-11-06T13:17:32.897+01:00  INFO 18768 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 6.629 seconds (process running for 9.202)
+2023-11-06T17:28:42.414+01:00  INFO 3188 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Starting TaskControllerIntegrationTest using Java 17.0.9 with PID 3188 (started by Samuel Konzi in C:\Users\Samuel Konzi\IdeaProjects\to-do-app)
+2023-11-06T17:28:42.426+01:00  INFO 3188 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T17:28:48.700+01:00  INFO 3188 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-11-06T17:28:48.702+01:00  INFO 3188 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-11-06T17:28:48.706+01:00  INFO 3188 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-11-06T17:28:48.810+01:00  INFO 3188 --- [Test worker] c.t.c.TaskControllerIntegrationTest      : Started TaskControllerIntegrationTest in 7.438 seconds (process running for 9.668)
+2023-11-06T17:28:49.323+01:00  WARN 3188 --- [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "53L"]
